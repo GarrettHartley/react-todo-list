@@ -1,0 +1,31 @@
+.imgAndInfoContainer{
+	display:flex;
+	flex-wrap: wrap;
+
+}
+
+.imgContainer{
+	flex-basis: 50%;
+	min-width: 400px;
+}
+
+.imgContainer img{
+	margin:auto;
+	display:block;
+}
+
+.infoContainer{
+	flex-basis:50%;
+}
+
+.title{
+font-size: 24px;
+}
+
+.info{
+
+}
+
+.links{
+
+}

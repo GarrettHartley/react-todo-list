@@ -1,0 +1,36 @@
+.flexContainer {
+	display: flex;
+flex-direction: column;
+	margin-top:50.5px;
+}
+.subPage {
+/*border: 1px solid gray;*/
+height: 600px;
+flex-basis: 100%;
+	/*background-color:paleturquoise;*/
+}
+
+.nav li{
+	display:inline-block;
+	text-align: center;
+
+}
+
+.nav a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 15px 5px 15px;
+}
+
+.nav a:hover{
+	background-color:pink;
+}
+
+.nav{
+	text-align: center;
+	position:fixed;
+	overflow:hidden;
+	background-color: white;
+	top:0px;
+	width:100%
+}
